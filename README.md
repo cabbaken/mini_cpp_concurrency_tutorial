@@ -15,8 +15,8 @@ It's confuse when you see these classes, and I will write this note to record my
 - [thread](thread/README.md#stdthread)  
 - [jthread](thread/README.md#stdjthread)  
 
-## Atomic
-
+## [Atomic](atomic/README.md#atomic)
+- [atomic](atomic/README.md#stdatomic)
 ## Mutex
 
 ## Condition variable
