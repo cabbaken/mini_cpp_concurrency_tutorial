@@ -4,3 +4,4 @@ project(concurrency_tutorial)
 
 add_subdirectory(thread)
 add_subdirectory(atomic)
+add_subdirectory(lock)

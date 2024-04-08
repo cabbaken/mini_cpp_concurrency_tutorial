@@ -1,6 +1,6 @@
 # Thread
 ## std::thread  
-### Constructor
+### Constructor  
 - `thread() noexcept`  
 Creates a new std::thread object which does not represent a thread, so this instance should not call `std::thread::join()`.  
 
