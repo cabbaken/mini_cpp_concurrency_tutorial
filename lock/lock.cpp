@@ -11,8 +11,10 @@ std::mutex mylock;
 void f()
 {
 	for(int i=0;i<10000;++i) {
+		// acquire lock
 		mylock.lock();
 		nonatomic_var++;
+		// release lock
 		mylock.unlock();
 		atomic_var++;
 	}

@@ -12,6 +12,8 @@ void f()
 {
 	for(int i=0;i<10000;++i) {
 		{
+		// you don't have to lock and unlock manually
+		// lock_guard helps you
 		std::lock_guard<std::mutex> lock(mylock);
 		nonatomic_var++;
 		}

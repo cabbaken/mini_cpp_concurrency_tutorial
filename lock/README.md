@@ -18,4 +18,6 @@ example in [lock_guard.cpp](lock_guard.cpp)
 The use of `std::unique_lock` is similar to `std::mutex` and `std::lock_guard`. It takes ownership of the mutex when it is created, and you can control the locking and unlocking of the mutex.  
 It is also provide RAII-style machanism for owning a mutex for the duration of a scoped block.  
 The benefit of this is that in case some exception is thrown, you are sure that the mutex will unlock when leaving the scope where the `std::unique_lock` is defined.  
-example in [unique_lock](unique_lock.cpp)
+example in [unique_lock.cpp](unique_lock.cpp)
+
+[Difference between `std::unique_lock` and `std::lock_guard`](https://stackoverflow.com/a/20516876/23367905)
