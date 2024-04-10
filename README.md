@@ -30,6 +30,6 @@ The use of `std::unique_lock` is similar to `std::mutex`.
 - [unique_lock](lock/README.md#stdunique_lock)
 
 ## [Condition variable](condition_variable/README.md#condition-variable)  
-
+A condition variable is an object able to block the calling thread until notified to resume.
 
 ## [Future]()  
