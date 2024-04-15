@@ -1,4 +1,5 @@
-# Modern C++ concurrency lib minimum tutorial
+# Modern C++ concurrency lib minimum tutorial  
+This is the road that I learn about c++ concurrency. There may be some mistakes, you can contact me through email(q0r1y@outlook.com) or issue.
 ## Intro
 Modern C++ includes built-in support for:
 - [Thread](#thread)
