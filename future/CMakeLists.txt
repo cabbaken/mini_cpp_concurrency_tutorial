@@ -1,0 +1,6 @@
+add_executable(async async.cpp)
+target_compile_options(async PUBLIC --std=c++20)
+add_executable(packaged_task packaged_task.cpp)
+target_compile_options(packaged_task PUBLIC --std=c++20)
+add_executable(promise promise.cpp)
+target_compile_options(promise PUBLIC --std=c++20)
