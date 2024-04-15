@@ -33,6 +33,12 @@ The use of `std::unique_lock` is similar to `std::mutex`.
 A condition variable is an object able to block the calling thread until notified to resume.
 
 ## [Future](future/README.md)  
-- [future]()
-- [promise]()
-- [packaged_task]()
+Here is something you need to transfer value between threads.  
+- [future](future/README.md#stdfuture)
+- [async](future/README.md#stdasync)
+- [promise](future/README.md#stdpromise)
+- [packaged_task](future/README.md#stdpackaged_task)
+
+## Reference
+- [cppreference](https://en.cppreference.com/w/cpp/thread)
+- [Bo Qian's Youtube video](https://www.youtube.com/@BoQianTheProgrammer)
